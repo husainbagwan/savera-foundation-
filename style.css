@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background: #1e8449;
+    padding: 15px;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* HOME */
+.home {
+    height: 220vh;
+
+    background: url("images/bg.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    color: navy-blue;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.overlay h1 {
+    font-size: 42px;
+}
+
+/* PAGES */
+.page {
+    padding: 40px;
+    text-align: center;
+}
+
+.page-img {
+    width: 520px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* QUOTES */
+.quote-box {
+    background: #f4f6f7;
+    margin: 15px auto;
+    padding: 20px;
+    width: 70%;
+    font-style: italic;
+    border-left: 5px solid #1e8449;
+}
